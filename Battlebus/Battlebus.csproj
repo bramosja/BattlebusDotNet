@@ -6,6 +6,1284 @@
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="semantic\dist\components\accordion.css" />
+    <None Remove="semantic\dist\components\accordion.js" />
+    <None Remove="semantic\dist\components\accordion.min.css" />
+    <None Remove="semantic\dist\components\accordion.min.js" />
+    <None Remove="semantic\dist\components\ad.css" />
+    <None Remove="semantic\dist\components\ad.min.css" />
+    <None Remove="semantic\dist\components\api.js" />
+    <None Remove="semantic\dist\components\api.min.js" />
+    <None Remove="semantic\dist\components\breadcrumb.css" />
+    <None Remove="semantic\dist\components\breadcrumb.min.css" />
+    <None Remove="semantic\dist\components\button.css" />
+    <None Remove="semantic\dist\components\button.min.css" />
+    <None Remove="semantic\dist\components\card.css" />
+    <None Remove="semantic\dist\components\card.min.css" />
+    <None Remove="semantic\dist\components\checkbox.css" />
+    <None Remove="semantic\dist\components\checkbox.js" />
+    <None Remove="semantic\dist\components\checkbox.min.css" />
+    <None Remove="semantic\dist\components\checkbox.min.js" />
+    <None Remove="semantic\dist\components\comment.css" />
+    <None Remove="semantic\dist\components\comment.min.css" />
+    <None Remove="semantic\dist\components\container.css" />
+    <None Remove="semantic\dist\components\container.min.css" />
+    <None Remove="semantic\dist\components\dimmer.css" />
+    <None Remove="semantic\dist\components\dimmer.js" />
+    <None Remove="semantic\dist\components\dimmer.min.css" />
+    <None Remove="semantic\dist\components\dimmer.min.js" />
+    <None Remove="semantic\dist\components\divider.css" />
+    <None Remove="semantic\dist\components\divider.min.css" />
+    <None Remove="semantic\dist\components\dropdown.css" />
+    <None Remove="semantic\dist\components\dropdown.js" />
+    <None Remove="semantic\dist\components\dropdown.min.css" />
+    <None Remove="semantic\dist\components\dropdown.min.js" />
+    <None Remove="semantic\dist\components\embed.css" />
+    <None Remove="semantic\dist\components\embed.js" />
+    <None Remove="semantic\dist\components\embed.min.css" />
+    <None Remove="semantic\dist\components\embed.min.js" />
+    <None Remove="semantic\dist\components\feed.css" />
+    <None Remove="semantic\dist\components\feed.min.css" />
+    <None Remove="semantic\dist\components\flag.css" />
+    <None Remove="semantic\dist\components\flag.min.css" />
+    <None Remove="semantic\dist\components\form.css" />
+    <None Remove="semantic\dist\components\form.js" />
+    <None Remove="semantic\dist\components\form.min.css" />
+    <None Remove="semantic\dist\components\form.min.js" />
+    <None Remove="semantic\dist\components\grid.css" />
+    <None Remove="semantic\dist\components\grid.min.css" />
+    <None Remove="semantic\dist\components\header.css" />
+    <None Remove="semantic\dist\components\header.min.css" />
+    <None Remove="semantic\dist\components\icon.css" />
+    <None Remove="semantic\dist\components\icon.min.css" />
+    <None Remove="semantic\dist\components\image.css" />
+    <None Remove="semantic\dist\components\image.min.css" />
+    <None Remove="semantic\dist\components\input.css" />
+    <None Remove="semantic\dist\components\input.min.css" />
+    <None Remove="semantic\dist\components\item.css" />
+    <None Remove="semantic\dist\components\item.min.css" />
+    <None Remove="semantic\dist\components\label.css" />
+    <None Remove="semantic\dist\components\label.min.css" />
+    <None Remove="semantic\dist\components\list.css" />
+    <None Remove="semantic\dist\components\list.min.css" />
+    <None Remove="semantic\dist\components\loader.css" />
+    <None Remove="semantic\dist\components\loader.min.css" />
+    <None Remove="semantic\dist\components\menu.css" />
+    <None Remove="semantic\dist\components\menu.min.css" />
+    <None Remove="semantic\dist\components\message.css" />
+    <None Remove="semantic\dist\components\message.min.css" />
+    <None Remove="semantic\dist\components\modal.css" />
+    <None Remove="semantic\dist\components\modal.js" />
+    <None Remove="semantic\dist\components\modal.min.css" />
+    <None Remove="semantic\dist\components\modal.min.js" />
+    <None Remove="semantic\dist\components\nag.css" />
+    <None Remove="semantic\dist\components\nag.js" />
+    <None Remove="semantic\dist\components\nag.min.css" />
+    <None Remove="semantic\dist\components\nag.min.js" />
+    <None Remove="semantic\dist\components\placeholder.css" />
+    <None Remove="semantic\dist\components\placeholder.min.css" />
+    <None Remove="semantic\dist\components\popup.css" />
+    <None Remove="semantic\dist\components\popup.js" />
+    <None Remove="semantic\dist\components\popup.min.css" />
+    <None Remove="semantic\dist\components\popup.min.js" />
+    <None Remove="semantic\dist\components\progress.css" />
+    <None Remove="semantic\dist\components\progress.js" />
+    <None Remove="semantic\dist\components\progress.min.css" />
+    <None Remove="semantic\dist\components\progress.min.js" />
+    <None Remove="semantic\dist\components\rail.css" />
+    <None Remove="semantic\dist\components\rail.min.css" />
+    <None Remove="semantic\dist\components\rating.css" />
+    <None Remove="semantic\dist\components\rating.js" />
+    <None Remove="semantic\dist\components\rating.min.css" />
+    <None Remove="semantic\dist\components\rating.min.js" />
+    <None Remove="semantic\dist\components\reset.css" />
+    <None Remove="semantic\dist\components\reset.min.css" />
+    <None Remove="semantic\dist\components\reveal.css" />
+    <None Remove="semantic\dist\components\reveal.min.css" />
+    <None Remove="semantic\dist\components\search.css" />
+    <None Remove="semantic\dist\components\search.js" />
+    <None Remove="semantic\dist\components\search.min.css" />
+    <None Remove="semantic\dist\components\search.min.js" />
+    <None Remove="semantic\dist\components\segment.css" />
+    <None Remove="semantic\dist\components\segment.min.css" />
+    <None Remove="semantic\dist\components\shape.css" />
+    <None Remove="semantic\dist\components\shape.js" />
+    <None Remove="semantic\dist\components\shape.min.css" />
+    <None Remove="semantic\dist\components\shape.min.js" />
+    <None Remove="semantic\dist\components\sidebar.css" />
+    <None Remove="semantic\dist\components\sidebar.js" />
+    <None Remove="semantic\dist\components\sidebar.min.css" />
+    <None Remove="semantic\dist\components\sidebar.min.js" />
+    <None Remove="semantic\dist\components\site.css" />
+    <None Remove="semantic\dist\components\site.js" />
+    <None Remove="semantic\dist\components\site.min.css" />
+    <None Remove="semantic\dist\components\site.min.js" />
+    <None Remove="semantic\dist\components\statistic.css" />
+    <None Remove="semantic\dist\components\statistic.min.css" />
+    <None Remove="semantic\dist\components\step.css" />
+    <None Remove="semantic\dist\components\step.min.css" />
+    <None Remove="semantic\dist\components\sticky.css" />
+    <None Remove="semantic\dist\components\sticky.js" />
+    <None Remove="semantic\dist\components\sticky.min.css" />
+    <None Remove="semantic\dist\components\sticky.min.js" />
+    <None Remove="semantic\dist\components\tab.css" />
+    <None Remove="semantic\dist\components\tab.js" />
+    <None Remove="semantic\dist\components\tab.min.css" />
+    <None Remove="semantic\dist\components\tab.min.js" />
+    <None Remove="semantic\dist\components\table.css" />
+    <None Remove="semantic\dist\components\table.min.css" />
+    <None Remove="semantic\dist\components\transition.css" />
+    <None Remove="semantic\dist\components\transition.js" />
+    <None Remove="semantic\dist\components\transition.min.css" />
+    <None Remove="semantic\dist\components\transition.min.js" />
+    <None Remove="semantic\dist\components\visibility.js" />
+    <None Remove="semantic\dist\components\visibility.min.js" />
+    <None Remove="semantic\dist\semantic.css" />
+    <None Remove="semantic\dist\semantic.js" />
+    <None Remove="semantic\dist\semantic.min.css" />
+    <None Remove="semantic\dist\semantic.min.js" />
+    <None Remove="semantic\dist\themes\basic\assets\fonts\icons.eot" />
+    <None Remove="semantic\dist\themes\basic\assets\fonts\icons.svg" />
+    <None Remove="semantic\dist\themes\basic\assets\fonts\icons.ttf" />
+    <None Remove="semantic\dist\themes\basic\assets\fonts\icons.woff" />
+    <None Remove="semantic\dist\themes\default\assets\fonts\brand-icons.eot" />
+    <None Remove="semantic\dist\themes\default\assets\fonts\brand-icons.svg" />
+    <None Remove="semantic\dist\themes\default\assets\fonts\brand-icons.ttf" />
+    <None Remove="semantic\dist\themes\default\assets\fonts\brand-icons.woff" />
+    <None Remove="semantic\dist\themes\default\assets\fonts\brand-icons.woff2" />
+    <None Remove="semantic\dist\themes\default\assets\fonts\icons.eot" />
+    <None Remove="semantic\dist\themes\default\assets\fonts\icons.svg" />
+    <None Remove="semantic\dist\themes\default\assets\fonts\icons.ttf" />
+    <None Remove="semantic\dist\themes\default\assets\fonts\icons.woff" />
+    <None Remove="semantic\dist\themes\default\assets\fonts\icons.woff2" />
+    <None Remove="semantic\dist\themes\default\assets\fonts\outline-icons.eot" />
+    <None Remove="semantic\dist\themes\default\assets\fonts\outline-icons.svg" />
+    <None Remove="semantic\dist\themes\default\assets\fonts\outline-icons.ttf" />
+    <None Remove="semantic\dist\themes\default\assets\fonts\outline-icons.woff" />
+    <None Remove="semantic\dist\themes\default\assets\fonts\outline-icons.woff2" />
+    <None Remove="semantic\dist\themes\default\assets\images\flags.png" />
+    <None Remove="semantic\dist\themes\github\assets\fonts\octicons-local.ttf" />
+    <None Remove="semantic\dist\themes\github\assets\fonts\octicons.svg" />
+    <None Remove="semantic\dist\themes\github\assets\fonts\octicons.ttf" />
+    <None Remove="semantic\dist\themes\github\assets\fonts\octicons.woff" />
+    <None Remove="semantic\dist\themes\material\assets\fonts\icons.eot" />
+    <None Remove="semantic\dist\themes\material\assets\fonts\icons.svg" />
+    <None Remove="semantic\dist\themes\material\assets\fonts\icons.ttf" />
+    <None Remove="semantic\dist\themes\material\assets\fonts\icons.woff" />
+    <None Remove="semantic\dist\themes\material\assets\fonts\icons.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="semantic\dist\components\accordion.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\accordion.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\accordion.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\accordion.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\ad.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\ad.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\api.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\api.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\breadcrumb.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\breadcrumb.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\button.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\button.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\card.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\card.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\checkbox.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\checkbox.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\checkbox.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\checkbox.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\comment.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\comment.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\container.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\container.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\dimmer.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\dimmer.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\dimmer.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\dimmer.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\divider.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\divider.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\dropdown.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\dropdown.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\dropdown.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\dropdown.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\embed.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\embed.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\embed.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\embed.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\feed.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\feed.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\flag.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\flag.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\form.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\form.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\form.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\form.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\grid.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\grid.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\header.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\header.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\icon.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\icon.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\image.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\image.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\input.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\input.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\item.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\item.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\label.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\label.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\list.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\list.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\loader.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\loader.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\menu.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\menu.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\message.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\message.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\modal.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\modal.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\modal.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\modal.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\nag.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\nag.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\nag.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\nag.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\placeholder.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\placeholder.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\popup.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\popup.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\popup.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\popup.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\progress.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\progress.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\progress.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\progress.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\rail.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\rail.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\rating.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\rating.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\rating.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\rating.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\reset.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\reset.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\reveal.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\reveal.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\search.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\search.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\search.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\search.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\segment.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\segment.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\shape.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\shape.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\shape.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\shape.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\sidebar.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\sidebar.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\sidebar.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\sidebar.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\site.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\site.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\site.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\site.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\statistic.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\statistic.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\step.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\step.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\sticky.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\sticky.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\sticky.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\sticky.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\tab.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\tab.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\tab.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\tab.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\table.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\table.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\transition.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\transition.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\transition.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\transition.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\visibility.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\components\visibility.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\semantic.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\semantic.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\semantic.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\semantic.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\basic\assets\fonts\icons.eot">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\basic\assets\fonts\icons.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\basic\assets\fonts\icons.ttf">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\basic\assets\fonts\icons.woff">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\default\assets\fonts\brand-icons.eot">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\default\assets\fonts\brand-icons.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\default\assets\fonts\brand-icons.ttf">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\default\assets\fonts\brand-icons.woff">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\default\assets\fonts\brand-icons.woff2">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\default\assets\fonts\icons.eot">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\default\assets\fonts\icons.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\default\assets\fonts\icons.ttf">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\default\assets\fonts\icons.woff">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\default\assets\fonts\icons.woff2">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\default\assets\fonts\outline-icons.eot">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\default\assets\fonts\outline-icons.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\default\assets\fonts\outline-icons.ttf">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\default\assets\fonts\outline-icons.woff">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\default\assets\fonts\outline-icons.woff2">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\default\assets\images\flags.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\github\assets\fonts\octicons-local.ttf">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\github\assets\fonts\octicons.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\github\assets\fonts\octicons.ttf">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\github\assets\fonts\octicons.woff">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\material\assets\fonts\icons.eot">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\material\assets\fonts\icons.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\material\assets\fonts\icons.ttf">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\material\assets\fonts\icons.woff">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\dist\themes\material\assets\fonts\icons.woff2">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="semantic\gulpfile.js" />
+    <Content Include="semantic\src\definitions\behaviors\api.js" />
+    <Content Include="semantic\src\definitions\behaviors\form.js" />
+    <Content Include="semantic\src\definitions\behaviors\visibility.js" />
+    <Content Include="semantic\src\definitions\collections\breadcrumb.less" />
+    <Content Include="semantic\src\definitions\collections\form.less" />
+    <Content Include="semantic\src\definitions\collections\grid.less" />
+    <Content Include="semantic\src\definitions\collections\menu.less" />
+    <Content Include="semantic\src\definitions\collections\message.less" />
+    <Content Include="semantic\src\definitions\collections\table.less" />
+    <Content Include="semantic\src\definitions\elements\button.less" />
+    <Content Include="semantic\src\definitions\elements\container.less" />
+    <Content Include="semantic\src\definitions\elements\divider.less" />
+    <Content Include="semantic\src\definitions\elements\flag.less" />
+    <Content Include="semantic\src\definitions\elements\header.less" />
+    <Content Include="semantic\src\definitions\elements\icon.less" />
+    <Content Include="semantic\src\definitions\elements\image.less" />
+    <Content Include="semantic\src\definitions\elements\input.less" />
+    <Content Include="semantic\src\definitions\elements\label.less" />
+    <Content Include="semantic\src\definitions\elements\list.less" />
+    <Content Include="semantic\src\definitions\elements\loader.less" />
+    <Content Include="semantic\src\definitions\elements\placeholder.less" />
+    <Content Include="semantic\src\definitions\elements\rail.less" />
+    <Content Include="semantic\src\definitions\elements\reveal.less" />
+    <Content Include="semantic\src\definitions\elements\segment.less" />
+    <Content Include="semantic\src\definitions\elements\step.less" />
+    <Content Include="semantic\src\definitions\globals\reset.less" />
+    <Content Include="semantic\src\definitions\globals\site.js" />
+    <Content Include="semantic\src\definitions\globals\site.less" />
+    <Content Include="semantic\src\definitions\modules\accordion.js" />
+    <Content Include="semantic\src\definitions\modules\accordion.less" />
+    <Content Include="semantic\src\definitions\modules\checkbox.js" />
+    <Content Include="semantic\src\definitions\modules\checkbox.less" />
+    <Content Include="semantic\src\definitions\modules\dimmer.js" />
+    <Content Include="semantic\src\definitions\modules\dimmer.less" />
+    <Content Include="semantic\src\definitions\modules\dropdown.js" />
+    <Content Include="semantic\src\definitions\modules\dropdown.less" />
+    <Content Include="semantic\src\definitions\modules\embed.js" />
+    <Content Include="semantic\src\definitions\modules\embed.less" />
+    <Content Include="semantic\src\definitions\modules\modal.js" />
+    <Content Include="semantic\src\definitions\modules\modal.less" />
+    <Content Include="semantic\src\definitions\modules\nag.js" />
+    <Content Include="semantic\src\definitions\modules\nag.less" />
+    <Content Include="semantic\src\definitions\modules\popup.js" />
+    <Content Include="semantic\src\definitions\modules\popup.less" />
+    <Content Include="semantic\src\definitions\modules\progress.js" />
+    <Content Include="semantic\src\definitions\modules\progress.less" />
+    <Content Include="semantic\src\definitions\modules\rating.js" />
+    <Content Include="semantic\src\definitions\modules\rating.less" />
+    <Content Include="semantic\src\definitions\modules\search.js" />
+    <Content Include="semantic\src\definitions\modules\search.less" />
+    <Content Include="semantic\src\definitions\modules\shape.js" />
+    <Content Include="semantic\src\definitions\modules\shape.less" />
+    <Content Include="semantic\src\definitions\modules\sidebar.js" />
+    <Content Include="semantic\src\definitions\modules\sidebar.less" />
+    <Content Include="semantic\src\definitions\modules\sticky.js" />
+    <Content Include="semantic\src\definitions\modules\sticky.less" />
+    <Content Include="semantic\src\definitions\modules\tab.js" />
+    <Content Include="semantic\src\definitions\modules\tab.less" />
+    <Content Include="semantic\src\definitions\modules\transition.js" />
+    <Content Include="semantic\src\definitions\modules\transition.less" />
+    <Content Include="semantic\src\definitions\views\ad.less" />
+    <Content Include="semantic\src\definitions\views\card.less" />
+    <Content Include="semantic\src\definitions\views\comment.less" />
+    <Content Include="semantic\src\definitions\views\feed.less" />
+    <Content Include="semantic\src\definitions\views\item.less" />
+    <Content Include="semantic\src\definitions\views\statistic.less" />
+    <Content Include="semantic\src\semantic.less" />
+    <Content Include="semantic\src\site\collections\breadcrumb.overrides" />
+    <Content Include="semantic\src\site\collections\breadcrumb.variables" />
+    <Content Include="semantic\src\site\collections\form.overrides" />
+    <Content Include="semantic\src\site\collections\form.variables" />
+    <Content Include="semantic\src\site\collections\grid.overrides" />
+    <Content Include="semantic\src\site\collections\grid.variables" />
+    <Content Include="semantic\src\site\collections\menu.overrides" />
+    <Content Include="semantic\src\site\collections\menu.variables" />
+    <Content Include="semantic\src\site\collections\message.overrides" />
+    <Content Include="semantic\src\site\collections\message.variables" />
+    <Content Include="semantic\src\site\collections\table.overrides" />
+    <Content Include="semantic\src\site\collections\table.variables" />
+    <Content Include="semantic\src\site\elements\button.overrides" />
+    <Content Include="semantic\src\site\elements\button.variables" />
+    <Content Include="semantic\src\site\elements\container.overrides" />
+    <Content Include="semantic\src\site\elements\container.variables" />
+    <Content Include="semantic\src\site\elements\divider.overrides" />
+    <Content Include="semantic\src\site\elements\divider.variables" />
+    <Content Include="semantic\src\site\elements\flag.overrides" />
+    <Content Include="semantic\src\site\elements\flag.variables" />
+    <Content Include="semantic\src\site\elements\header.overrides" />
+    <Content Include="semantic\src\site\elements\header.variables" />
+    <Content Include="semantic\src\site\elements\icon.overrides" />
+    <Content Include="semantic\src\site\elements\icon.variables" />
+    <Content Include="semantic\src\site\elements\image.overrides" />
+    <Content Include="semantic\src\site\elements\image.variables" />
+    <Content Include="semantic\src\site\elements\input.overrides" />
+    <Content Include="semantic\src\site\elements\input.variables" />
+    <Content Include="semantic\src\site\elements\label.overrides" />
+    <Content Include="semantic\src\site\elements\label.variables" />
+    <Content Include="semantic\src\site\elements\list.overrides" />
+    <Content Include="semantic\src\site\elements\list.variables" />
+    <Content Include="semantic\src\site\elements\loader.overrides" />
+    <Content Include="semantic\src\site\elements\loader.variables" />
+    <Content Include="semantic\src\site\elements\rail.overrides" />
+    <Content Include="semantic\src\site\elements\rail.variables" />
+    <Content Include="semantic\src\site\elements\reveal.overrides" />
+    <Content Include="semantic\src\site\elements\reveal.variables" />
+    <Content Include="semantic\src\site\elements\segment.overrides" />
+    <Content Include="semantic\src\site\elements\segment.variables" />
+    <Content Include="semantic\src\site\elements\step.overrides" />
+    <Content Include="semantic\src\site\elements\step.variables" />
+    <Content Include="semantic\src\site\globals\reset.overrides" />
+    <Content Include="semantic\src\site\globals\reset.variables" />
+    <Content Include="semantic\src\site\globals\site.overrides" />
+    <Content Include="semantic\src\site\globals\site.variables" />
+    <Content Include="semantic\src\site\modules\accordion.overrides" />
+    <Content Include="semantic\src\site\modules\accordion.variables" />
+    <Content Include="semantic\src\site\modules\chatroom.overrides" />
+    <Content Include="semantic\src\site\modules\chatroom.variables" />
+    <Content Include="semantic\src\site\modules\checkbox.overrides" />
+    <Content Include="semantic\src\site\modules\checkbox.variables" />
+    <Content Include="semantic\src\site\modules\dimmer.overrides" />
+    <Content Include="semantic\src\site\modules\dimmer.variables" />
+    <Content Include="semantic\src\site\modules\dropdown.overrides" />
+    <Content Include="semantic\src\site\modules\dropdown.variables" />
+    <Content Include="semantic\src\site\modules\embed.overrides" />
+    <Content Include="semantic\src\site\modules\embed.variables" />
+    <Content Include="semantic\src\site\modules\modal.overrides" />
+    <Content Include="semantic\src\site\modules\modal.variables" />
+    <Content Include="semantic\src\site\modules\nag.overrides" />
+    <Content Include="semantic\src\site\modules\nag.variables" />
+    <Content Include="semantic\src\site\modules\popup.overrides" />
+    <Content Include="semantic\src\site\modules\popup.variables" />
+    <Content Include="semantic\src\site\modules\progress.overrides" />
+    <Content Include="semantic\src\site\modules\progress.variables" />
+    <Content Include="semantic\src\site\modules\rating.overrides" />
+    <Content Include="semantic\src\site\modules\rating.variables" />
+    <Content Include="semantic\src\site\modules\search.overrides" />
+    <Content Include="semantic\src\site\modules\search.variables" />
+    <Content Include="semantic\src\site\modules\shape.overrides" />
+    <Content Include="semantic\src\site\modules\shape.variables" />
+    <Content Include="semantic\src\site\modules\sidebar.overrides" />
+    <Content Include="semantic\src\site\modules\sidebar.variables" />
+    <Content Include="semantic\src\site\modules\sticky.overrides" />
+    <Content Include="semantic\src\site\modules\sticky.variables" />
+    <Content Include="semantic\src\site\modules\tab.overrides" />
+    <Content Include="semantic\src\site\modules\tab.variables" />
+    <Content Include="semantic\src\site\modules\transition.overrides" />
+    <Content Include="semantic\src\site\modules\transition.variables" />
+    <Content Include="semantic\src\site\views\ad.overrides" />
+    <Content Include="semantic\src\site\views\ad.variables" />
+    <Content Include="semantic\src\site\views\card.overrides" />
+    <Content Include="semantic\src\site\views\card.variables" />
+    <Content Include="semantic\src\site\views\comment.overrides" />
+    <Content Include="semantic\src\site\views\comment.variables" />
+    <Content Include="semantic\src\site\views\feed.overrides" />
+    <Content Include="semantic\src\site\views\feed.variables" />
+    <Content Include="semantic\src\site\views\item.overrides" />
+    <Content Include="semantic\src\site\views\item.variables" />
+    <Content Include="semantic\src\site\views\statistic.overrides" />
+    <Content Include="semantic\src\site\views\statistic.variables" />
+    <Content Include="semantic\src\theme.less" />
+    <Content Include="semantic\src\themes\amazon\elements\button.overrides" />
+    <Content Include="semantic\src\themes\amazon\elements\button.variables" />
+    <Content Include="semantic\src\themes\amazon\globals\site.variables" />
+    <Content Include="semantic\src\themes\basic\assets\fonts\icons.eot" />
+    <Content Include="semantic\src\themes\basic\assets\fonts\icons.svg" />
+    <Content Include="semantic\src\themes\basic\assets\fonts\icons.ttf" />
+    <Content Include="semantic\src\themes\basic\assets\fonts\icons.woff" />
+    <Content Include="semantic\src\themes\basic\collections\table.overrides" />
+    <Content Include="semantic\src\themes\basic\collections\table.variables" />
+    <Content Include="semantic\src\themes\basic\elements\button.overrides" />
+    <Content Include="semantic\src\themes\basic\elements\button.variables" />
+    <Content Include="semantic\src\themes\basic\elements\icon.overrides" />
+    <Content Include="semantic\src\themes\basic\elements\icon.variables" />
+    <Content Include="semantic\src\themes\basic\elements\step.overrides" />
+    <Content Include="semantic\src\themes\basic\elements\step.variables" />
+    <Content Include="semantic\src\themes\basic\globals\reset.overrides" />
+    <Content Include="semantic\src\themes\basic\globals\reset.variables" />
+    <Content Include="semantic\src\themes\basic\modules\progress.overrides" />
+    <Content Include="semantic\src\themes\basic\modules\progress.variables" />
+    <Content Include="semantic\src\themes\basic\views\card.overrides" />
+    <Content Include="semantic\src\themes\basic\views\card.variables" />
+    <Content Include="semantic\src\themes\bookish\elements\header.overrides" />
+    <Content Include="semantic\src\themes\bookish\elements\header.variables" />
+    <Content Include="semantic\src\themes\bootstrap3\elements\button.overrides" />
+    <Content Include="semantic\src\themes\bootstrap3\elements\button.variables" />
+    <Content Include="semantic\src\themes\chubby\collections\form.overrides" />
+    <Content Include="semantic\src\themes\chubby\collections\form.variables" />
+    <Content Include="semantic\src\themes\chubby\collections\menu.overrides" />
+    <Content Include="semantic\src\themes\chubby\collections\menu.variables" />
+    <Content Include="semantic\src\themes\chubby\elements\button.overrides" />
+    <Content Include="semantic\src\themes\chubby\elements\button.variables" />
+    <Content Include="semantic\src\themes\chubby\elements\header.overrides" />
+    <Content Include="semantic\src\themes\chubby\elements\header.variables" />
+    <Content Include="semantic\src\themes\chubby\modules\accordion.overrides" />
+    <Content Include="semantic\src\themes\chubby\modules\accordion.variables" />
+    <Content Include="semantic\src\themes\chubby\views\comment.overrides" />
+    <Content Include="semantic\src\themes\chubby\views\comment.variables" />
+    <Content Include="semantic\src\themes\classic\collections\table.overrides" />
+    <Content Include="semantic\src\themes\classic\collections\table.variables" />
+    <Content Include="semantic\src\themes\classic\elements\button.overrides" />
+    <Content Include="semantic\src\themes\classic\elements\button.variables" />
+    <Content Include="semantic\src\themes\classic\elements\header.overrides" />
+    <Content Include="semantic\src\themes\classic\elements\header.variables" />
+    <Content Include="semantic\src\themes\classic\modules\progress.overrides" />
+    <Content Include="semantic\src\themes\classic\modules\progress.variables" />
+    <Content Include="semantic\src\themes\classic\views\card.overrides" />
+    <Content Include="semantic\src\themes\classic\views\card.variables" />
+    <Content Include="semantic\src\themes\colored\modules\checkbox.overrides" />
+    <Content Include="semantic\src\themes\colored\modules\checkbox.variables" />
+    <Content Include="semantic\src\themes\default\assets\fonts\brand-icons.eot" />
+    <Content Include="semantic\src\themes\default\assets\fonts\brand-icons.svg" />
+    <Content Include="semantic\src\themes\default\assets\fonts\brand-icons.ttf" />
+    <Content Include="semantic\src\themes\default\assets\fonts\brand-icons.woff" />
+    <Content Include="semantic\src\themes\default\assets\fonts\brand-icons.woff2" />
+    <Content Include="semantic\src\themes\default\assets\fonts\icons.eot" />
+    <Content Include="semantic\src\themes\default\assets\fonts\icons.svg" />
+    <Content Include="semantic\src\themes\default\assets\fonts\icons.ttf" />
+    <Content Include="semantic\src\themes\default\assets\fonts\icons.woff" />
+    <Content Include="semantic\src\themes\default\assets\fonts\icons.woff2" />
+    <Content Include="semantic\src\themes\default\assets\fonts\outline-icons.eot" />
+    <Content Include="semantic\src\themes\default\assets\fonts\outline-icons.svg" />
+    <Content Include="semantic\src\themes\default\assets\fonts\outline-icons.ttf" />
+    <Content Include="semantic\src\themes\default\assets\fonts\outline-icons.woff" />
+    <Content Include="semantic\src\themes\default\assets\fonts\outline-icons.woff2" />
+    <Content Include="semantic\src\themes\default\assets\images\flags.png" />
+    <Content Include="semantic\src\themes\default\collections\breadcrumb.overrides" />
+    <Content Include="semantic\src\themes\default\collections\breadcrumb.variables" />
+    <Content Include="semantic\src\themes\default\collections\form.overrides" />
+    <Content Include="semantic\src\themes\default\collections\form.variables" />
+    <Content Include="semantic\src\themes\default\collections\grid.overrides" />
+    <Content Include="semantic\src\themes\default\collections\grid.variables" />
+    <Content Include="semantic\src\themes\default\collections\menu.overrides" />
+    <Content Include="semantic\src\themes\default\collections\menu.variables" />
+    <Content Include="semantic\src\themes\default\collections\message.overrides" />
+    <Content Include="semantic\src\themes\default\collections\message.variables" />
+    <Content Include="semantic\src\themes\default\collections\table.overrides" />
+    <Content Include="semantic\src\themes\default\collections\table.variables" />
+    <Content Include="semantic\src\themes\default\elements\button.overrides" />
+    <Content Include="semantic\src\themes\default\elements\button.variables" />
+    <Content Include="semantic\src\themes\default\elements\container.overrides" />
+    <Content Include="semantic\src\themes\default\elements\container.variables" />
+    <Content Include="semantic\src\themes\default\elements\divider.overrides" />
+    <Content Include="semantic\src\themes\default\elements\divider.variables" />
+    <Content Include="semantic\src\themes\default\elements\flag.overrides" />
+    <Content Include="semantic\src\themes\default\elements\flag.variables" />
+    <Content Include="semantic\src\themes\default\elements\header.overrides" />
+    <Content Include="semantic\src\themes\default\elements\header.variables" />
+    <Content Include="semantic\src\themes\default\elements\icon.overrides" />
+    <Content Include="semantic\src\themes\default\elements\icon.variables" />
+    <Content Include="semantic\src\themes\default\elements\image.overrides" />
+    <Content Include="semantic\src\themes\default\elements\image.variables" />
+    <Content Include="semantic\src\themes\default\elements\input.overrides" />
+    <Content Include="semantic\src\themes\default\elements\input.variables" />
+    <Content Include="semantic\src\themes\default\elements\label.overrides" />
+    <Content Include="semantic\src\themes\default\elements\label.variables" />
+    <Content Include="semantic\src\themes\default\elements\list.overrides" />
+    <Content Include="semantic\src\themes\default\elements\list.variables" />
+    <Content Include="semantic\src\themes\default\elements\loader.overrides" />
+    <Content Include="semantic\src\themes\default\elements\loader.variables" />
+    <Content Include="semantic\src\themes\default\elements\placeholder.overrides" />
+    <Content Include="semantic\src\themes\default\elements\placeholder.variables" />
+    <Content Include="semantic\src\themes\default\elements\rail.overrides" />
+    <Content Include="semantic\src\themes\default\elements\rail.variables" />
+    <Content Include="semantic\src\themes\default\elements\reveal.overrides" />
+    <Content Include="semantic\src\themes\default\elements\reveal.variables" />
+    <Content Include="semantic\src\themes\default\elements\segment.overrides" />
+    <Content Include="semantic\src\themes\default\elements\segment.variables" />
+    <Content Include="semantic\src\themes\default\elements\step.overrides" />
+    <Content Include="semantic\src\themes\default\elements\step.variables" />
+    <Content Include="semantic\src\themes\default\globals\reset.overrides" />
+    <Content Include="semantic\src\themes\default\globals\reset.variables" />
+    <Content Include="semantic\src\themes\default\globals\site.overrides" />
+    <Content Include="semantic\src\themes\default\globals\site.variables" />
+    <Content Include="semantic\src\themes\default\modules\accordion.overrides" />
+    <Content Include="semantic\src\themes\default\modules\accordion.variables" />
+    <Content Include="semantic\src\themes\default\modules\chatroom.overrides" />
+    <Content Include="semantic\src\themes\default\modules\chatroom.variables" />
+    <Content Include="semantic\src\themes\default\modules\checkbox.overrides" />
+    <Content Include="semantic\src\themes\default\modules\checkbox.variables" />
+    <Content Include="semantic\src\themes\default\modules\dimmer.overrides" />
+    <Content Include="semantic\src\themes\default\modules\dimmer.variables" />
+    <Content Include="semantic\src\themes\default\modules\dropdown.overrides" />
+    <Content Include="semantic\src\themes\default\modules\dropdown.variables" />
+    <Content Include="semantic\src\themes\default\modules\embed.overrides" />
+    <Content Include="semantic\src\themes\default\modules\embed.variables" />
+    <Content Include="semantic\src\themes\default\modules\modal.overrides" />
+    <Content Include="semantic\src\themes\default\modules\modal.variables" />
+    <Content Include="semantic\src\themes\default\modules\nag.overrides" />
+    <Content Include="semantic\src\themes\default\modules\nag.variables" />
+    <Content Include="semantic\src\themes\default\modules\popup.overrides" />
+    <Content Include="semantic\src\themes\default\modules\popup.variables" />
+    <Content Include="semantic\src\themes\default\modules\progress.overrides" />
+    <Content Include="semantic\src\themes\default\modules\progress.variables" />
+    <Content Include="semantic\src\themes\default\modules\rating.overrides" />
+    <Content Include="semantic\src\themes\default\modules\rating.variables" />
+    <Content Include="semantic\src\themes\default\modules\search.overrides" />
+    <Content Include="semantic\src\themes\default\modules\search.variables" />
+    <Content Include="semantic\src\themes\default\modules\shape.overrides" />
+    <Content Include="semantic\src\themes\default\modules\shape.variables" />
+    <Content Include="semantic\src\themes\default\modules\sidebar.overrides" />
+    <Content Include="semantic\src\themes\default\modules\sidebar.variables" />
+    <Content Include="semantic\src\themes\default\modules\sticky.overrides" />
+    <Content Include="semantic\src\themes\default\modules\sticky.variables" />
+    <Content Include="semantic\src\themes\default\modules\tab.overrides" />
+    <Content Include="semantic\src\themes\default\modules\tab.variables" />
+    <Content Include="semantic\src\themes\default\modules\transition.overrides" />
+    <Content Include="semantic\src\themes\default\modules\transition.variables" />
+    <Content Include="semantic\src\themes\default\views\ad.overrides" />
+    <Content Include="semantic\src\themes\default\views\ad.variables" />
+    <Content Include="semantic\src\themes\default\views\card.overrides" />
+    <Content Include="semantic\src\themes\default\views\card.variables" />
+    <Content Include="semantic\src\themes\default\views\comment.overrides" />
+    <Content Include="semantic\src\themes\default\views\comment.variables" />
+    <Content Include="semantic\src\themes\default\views\feed.overrides" />
+    <Content Include="semantic\src\themes\default\views\feed.variables" />
+    <Content Include="semantic\src\themes\default\views\item.overrides" />
+    <Content Include="semantic\src\themes\default\views\item.variables" />
+    <Content Include="semantic\src\themes\default\views\statistic.overrides" />
+    <Content Include="semantic\src\themes\default\views\statistic.variables" />
+    <Content Include="semantic\src\themes\duo\elements\loader.overrides" />
+    <Content Include="semantic\src\themes\duo\elements\loader.variables" />
+    <Content Include="semantic\src\themes\fixed-width\collections\grid.overrides" />
+    <Content Include="semantic\src\themes\fixed-width\collections\grid.variables" />
+    <Content Include="semantic\src\themes\fixed-width\modules\modal.overrides" />
+    <Content Include="semantic\src\themes\fixed-width\modules\modal.variables" />
+    <Content Include="semantic\src\themes\flat\collections\form.overrides" />
+    <Content Include="semantic\src\themes\flat\collections\form.variables" />
+    <Content Include="semantic\src\themes\flat\globals\site.overrides" />
+    <Content Include="semantic\src\themes\flat\globals\site.variables" />
+    <Content Include="semantic\src\themes\github\assets\fonts\octicons-local.ttf" />
+    <Content Include="semantic\src\themes\github\assets\fonts\octicons.svg" />
+    <Content Include="semantic\src\themes\github\assets\fonts\octicons.ttf" />
+    <Content Include="semantic\src\themes\github\assets\fonts\octicons.woff" />
+    <Content Include="semantic\src\themes\github\collections\breadcrumb.variables" />
+    <Content Include="semantic\src\themes\github\collections\form.overrides" />
+    <Content Include="semantic\src\themes\github\collections\form.variables" />
+    <Content Include="semantic\src\themes\github\collections\grid.variables" />
+    <Content Include="semantic\src\themes\github\collections\menu.overrides" />
+    <Content Include="semantic\src\themes\github\collections\menu.variables" />
+    <Content Include="semantic\src\themes\github\collections\message.overrides" />
+    <Content Include="semantic\src\themes\github\collections\message.variables" />
+    <Content Include="semantic\src\themes\github\collections\table.variables" />
+    <Content Include="semantic\src\themes\github\elements\button.overrides" />
+    <Content Include="semantic\src\themes\github\elements\button.variables" />
+    <Content Include="semantic\src\themes\github\elements\header.variables" />
+    <Content Include="semantic\src\themes\github\elements\icon.overrides" />
+    <Content Include="semantic\src\themes\github\elements\icon.variables" />
+    <Content Include="semantic\src\themes\github\elements\image.variables" />
+    <Content Include="semantic\src\themes\github\elements\input.overrides" />
+    <Content Include="semantic\src\themes\github\elements\input.variables" />
+    <Content Include="semantic\src\themes\github\elements\label.overrides" />
+    <Content Include="semantic\src\themes\github\elements\label.variables" />
+    <Content Include="semantic\src\themes\github\elements\segment.overrides" />
+    <Content Include="semantic\src\themes\github\elements\segment.variables" />
+    <Content Include="semantic\src\themes\github\elements\step.overrides" />
+    <Content Include="semantic\src\themes\github\elements\step.variables" />
+    <Content Include="semantic\src\themes\github\globals\site.variables" />
+    <Content Include="semantic\src\themes\github\modules\dropdown.overrides" />
+    <Content Include="semantic\src\themes\github\modules\dropdown.variables" />
+    <Content Include="semantic\src\themes\github\modules\popup.variables" />
+    <Content Include="semantic\src\themes\gmail\collections\message.overrides" />
+    <Content Include="semantic\src\themes\gmail\collections\message.variables" />
+    <Content Include="semantic\src\themes\instagram\views\card.overrides" />
+    <Content Include="semantic\src\themes\instagram\views\card.variables" />
+    <Content Include="semantic\src\themes\material\assets\fonts\icons.eot" />
+    <Content Include="semantic\src\themes\material\assets\fonts\icons.svg" />
+    <Content Include="semantic\src\themes\material\assets\fonts\icons.ttf" />
+    <Content Include="semantic\src\themes\material\assets\fonts\icons.woff" />
+    <Content Include="semantic\src\themes\material\assets\fonts\icons.woff2" />
+    <Content Include="semantic\src\themes\material\collections\menu.overrides" />
+    <Content Include="semantic\src\themes\material\collections\menu.variables" />
+    <Content Include="semantic\src\themes\material\elements\button.overrides" />
+    <Content Include="semantic\src\themes\material\elements\button.variables" />
+    <Content Include="semantic\src\themes\material\elements\header.overrides" />
+    <Content Include="semantic\src\themes\material\elements\header.variables" />
+    <Content Include="semantic\src\themes\material\elements\icon.overrides" />
+    <Content Include="semantic\src\themes\material\elements\icon.variables" />
+    <Content Include="semantic\src\themes\material\globals\site.overrides" />
+    <Content Include="semantic\src\themes\material\globals\site.variables" />
+    <Content Include="semantic\src\themes\material\modules\dropdown.overrides" />
+    <Content Include="semantic\src\themes\material\modules\dropdown.variables" />
+    <Content Include="semantic\src\themes\material\modules\modal.overrides" />
+    <Content Include="semantic\src\themes\material\modules\modal.variables" />
+    <Content Include="semantic\src\themes\pulsar\elements\loader.overrides" />
+    <Content Include="semantic\src\themes\pulsar\elements\loader.variables" />
+    <Content Include="semantic\src\themes\raised\elements\button.overrides" />
+    <Content Include="semantic\src\themes\raised\elements\button.variables" />
+    <Content Include="semantic\src\themes\resetcss\globals\reset.overrides" />
+    <Content Include="semantic\src\themes\resetcss\globals\reset.variables" />
+    <Content Include="semantic\src\themes\round\elements\button.overrides" />
+    <Content Include="semantic\src\themes\round\elements\button.variables" />
+    <Content Include="semantic\src\themes\rtl\globals\site.overrides" />
+    <Content Include="semantic\src\themes\rtl\globals\site.variables" />
+    <Content Include="semantic\src\themes\striped\modules\progress.overrides" />
+    <Content Include="semantic\src\themes\striped\modules\progress.variables" />
+    <Content Include="semantic\src\themes\timeline\views\feed.overrides" />
+    <Content Include="semantic\src\themes\timeline\views\feed.variables" />
+    <Content Include="semantic\src\themes\twitter\elements\button.overrides" />
+    <Content Include="semantic\src\themes\twitter\elements\button.variables" />
+    <Content Include="semantic\tasks\admin\components\create.js" />
+    <Content Include="semantic\tasks\admin\components\init.js" />
+    <Content Include="semantic\tasks\admin\components\update.js" />
+    <Content Include="semantic\tasks\admin\distributions\create.js" />
+    <Content Include="semantic\tasks\admin\distributions\init.js" />
+    <Content Include="semantic\tasks\admin\distributions\update.js" />
+    <Content Include="semantic\tasks\admin\publish.js" />
+    <Content Include="semantic\tasks\admin\register.js" />
+    <Content Include="semantic\tasks\admin\release.js" />
+    <Content Include="semantic\tasks\build.js" />
+    <Content Include="semantic\tasks\build\assets.js" />
+    <Content Include="semantic\tasks\build\css.js" />
+    <Content Include="semantic\tasks\build\javascript.js" />
+    <Content Include="semantic\tasks\check-install.js" />
+    <Content Include="semantic\tasks\clean.js" />
+    <Content Include="semantic\tasks\collections\admin.js" />
+    <Content Include="semantic\tasks\collections\build.js" />
+    <Content Include="semantic\tasks\collections\internal.js" />
+    <Content Include="semantic\tasks\collections\README.md" />
+    <Content Include="semantic\tasks\collections\rtl.js" />
+    <Content Include="semantic\tasks\config\admin\github.js" />
+    <Content Include="semantic\tasks\config\admin\oauth.example.js" />
+    <Content Include="semantic\tasks\config\admin\release.js" />
+    <Content Include="semantic\tasks\config\admin\templates\component-package.js" />
+    <Content Include="semantic\tasks\config\admin\templates\css-package.js" />
+    <Content Include="semantic\tasks\config\admin\templates\less-package.js" />
+    <Content Include="semantic\tasks\config\admin\templates\README.md" />
+    <Content Include="semantic\tasks\config\defaults.js" />
+    <Content Include="semantic\tasks\config\docs.js" />
+    <Content Include="semantic\tasks\config\npm\gulpfile.js" />
+    <Content Include="semantic\tasks\config\project\config.js" />
+    <Content Include="semantic\tasks\config\project\install.js" />
+    <Content Include="semantic\tasks\config\project\release.js" />
+    <Content Include="semantic\tasks\config\tasks.js" />
+    <Content Include="semantic\tasks\config\user.js" />
+    <Content Include="semantic\tasks\docs\build.js" />
+    <Content Include="semantic\tasks\docs\metadata.js" />
+    <Content Include="semantic\tasks\docs\serve.js" />
+    <Content Include="semantic\tasks\install.js" />
+    <Content Include="semantic\tasks\README.md" />
+    <Content Include="semantic\tasks\rtl\build.js" />
+    <Content Include="semantic\tasks\rtl\watch.js" />
+    <Content Include="semantic\tasks\version.js" />
+    <Content Include="semantic\tasks\watch.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\semantic\components\accordion.css" />
+    <None Include="wwwroot\semantic\components\accordion.js" />
+    <None Include="wwwroot\semantic\components\accordion.min.css" />
+    <None Include="wwwroot\semantic\components\accordion.min.js" />
+    <None Include="wwwroot\semantic\components\ad.css" />
+    <None Include="wwwroot\semantic\components\ad.min.css" />
+    <None Include="wwwroot\semantic\components\api.js" />
+    <None Include="wwwroot\semantic\components\api.min.js" />
+    <None Include="wwwroot\semantic\components\breadcrumb.css" />
+    <None Include="wwwroot\semantic\components\breadcrumb.min.css" />
+    <None Include="wwwroot\semantic\components\button.css" />
+    <None Include="wwwroot\semantic\components\button.min.css" />
+    <None Include="wwwroot\semantic\components\card.css" />
+    <None Include="wwwroot\semantic\components\card.min.css" />
+    <None Include="wwwroot\semantic\components\checkbox.css" />
+    <None Include="wwwroot\semantic\components\checkbox.js" />
+    <None Include="wwwroot\semantic\components\checkbox.min.css" />
+    <None Include="wwwroot\semantic\components\checkbox.min.js" />
+    <None Include="wwwroot\semantic\components\comment.css" />
+    <None Include="wwwroot\semantic\components\comment.min.css" />
+    <None Include="wwwroot\semantic\components\container.css" />
+    <None Include="wwwroot\semantic\components\container.min.css" />
+    <None Include="wwwroot\semantic\components\dimmer.css" />
+    <None Include="wwwroot\semantic\components\dimmer.js" />
+    <None Include="wwwroot\semantic\components\dimmer.min.css" />
+    <None Include="wwwroot\semantic\components\dimmer.min.js" />
+    <None Include="wwwroot\semantic\components\divider.css" />
+    <None Include="wwwroot\semantic\components\divider.min.css" />
+    <None Include="wwwroot\semantic\components\dropdown.css" />
+    <None Include="wwwroot\semantic\components\dropdown.js" />
+    <None Include="wwwroot\semantic\components\dropdown.min.css" />
+    <None Include="wwwroot\semantic\components\dropdown.min.js" />
+    <None Include="wwwroot\semantic\components\embed.css" />
+    <None Include="wwwroot\semantic\components\embed.js" />
+    <None Include="wwwroot\semantic\components\embed.min.css" />
+    <None Include="wwwroot\semantic\components\embed.min.js" />
+    <None Include="wwwroot\semantic\components\feed.css" />
+    <None Include="wwwroot\semantic\components\feed.min.css" />
+    <None Include="wwwroot\semantic\components\flag.css" />
+    <None Include="wwwroot\semantic\components\flag.min.css" />
+    <None Include="wwwroot\semantic\components\form.css" />
+    <None Include="wwwroot\semantic\components\form.js" />
+    <None Include="wwwroot\semantic\components\form.min.css" />
+    <None Include="wwwroot\semantic\components\form.min.js" />
+    <None Include="wwwroot\semantic\components\grid.css" />
+    <None Include="wwwroot\semantic\components\grid.min.css" />
+    <None Include="wwwroot\semantic\components\header.css" />
+    <None Include="wwwroot\semantic\components\header.min.css" />
+    <None Include="wwwroot\semantic\components\icon.css" />
+    <None Include="wwwroot\semantic\components\icon.min.css" />
+    <None Include="wwwroot\semantic\components\image.css" />
+    <None Include="wwwroot\semantic\components\image.min.css" />
+    <None Include="wwwroot\semantic\components\input.css" />
+    <None Include="wwwroot\semantic\components\input.min.css" />
+    <None Include="wwwroot\semantic\components\item.css" />
+    <None Include="wwwroot\semantic\components\item.min.css" />
+    <None Include="wwwroot\semantic\components\label.css" />
+    <None Include="wwwroot\semantic\components\label.min.css" />
+    <None Include="wwwroot\semantic\components\list.css" />
+    <None Include="wwwroot\semantic\components\list.min.css" />
+    <None Include="wwwroot\semantic\components\loader.css" />
+    <None Include="wwwroot\semantic\components\loader.min.css" />
+    <None Include="wwwroot\semantic\components\menu.css" />
+    <None Include="wwwroot\semantic\components\menu.min.css" />
+    <None Include="wwwroot\semantic\components\message.css" />
+    <None Include="wwwroot\semantic\components\message.min.css" />
+    <None Include="wwwroot\semantic\components\modal.css" />
+    <None Include="wwwroot\semantic\components\modal.js" />
+    <None Include="wwwroot\semantic\components\modal.min.css" />
+    <None Include="wwwroot\semantic\components\modal.min.js" />
+    <None Include="wwwroot\semantic\components\nag.css" />
+    <None Include="wwwroot\semantic\components\nag.js" />
+    <None Include="wwwroot\semantic\components\nag.min.css" />
+    <None Include="wwwroot\semantic\components\nag.min.js" />
+    <None Include="wwwroot\semantic\components\placeholder.css" />
+    <None Include="wwwroot\semantic\components\placeholder.min.css" />
+    <None Include="wwwroot\semantic\components\popup.css" />
+    <None Include="wwwroot\semantic\components\popup.js" />
+    <None Include="wwwroot\semantic\components\popup.min.css" />
+    <None Include="wwwroot\semantic\components\popup.min.js" />
+    <None Include="wwwroot\semantic\components\progress.css" />
+    <None Include="wwwroot\semantic\components\progress.js" />
+    <None Include="wwwroot\semantic\components\progress.min.css" />
+    <None Include="wwwroot\semantic\components\progress.min.js" />
+    <None Include="wwwroot\semantic\components\rail.css" />
+    <None Include="wwwroot\semantic\components\rail.min.css" />
+    <None Include="wwwroot\semantic\components\rating.css" />
+    <None Include="wwwroot\semantic\components\rating.js" />
+    <None Include="wwwroot\semantic\components\rating.min.css" />
+    <None Include="wwwroot\semantic\components\rating.min.js" />
+    <None Include="wwwroot\semantic\components\reset.css" />
+    <None Include="wwwroot\semantic\components\reset.min.css" />
+    <None Include="wwwroot\semantic\components\reveal.css" />
+    <None Include="wwwroot\semantic\components\reveal.min.css" />
+    <None Include="wwwroot\semantic\components\search.css" />
+    <None Include="wwwroot\semantic\components\search.js" />
+    <None Include="wwwroot\semantic\components\search.min.css" />
+    <None Include="wwwroot\semantic\components\search.min.js" />
+    <None Include="wwwroot\semantic\components\segment.css" />
+    <None Include="wwwroot\semantic\components\segment.min.css" />
+    <None Include="wwwroot\semantic\components\shape.css" />
+    <None Include="wwwroot\semantic\components\shape.js" />
+    <None Include="wwwroot\semantic\components\shape.min.css" />
+    <None Include="wwwroot\semantic\components\shape.min.js" />
+    <None Include="wwwroot\semantic\components\sidebar.css" />
+    <None Include="wwwroot\semantic\components\sidebar.js" />
+    <None Include="wwwroot\semantic\components\sidebar.min.css" />
+    <None Include="wwwroot\semantic\components\sidebar.min.js" />
+    <None Include="wwwroot\semantic\components\site.css" />
+    <None Include="wwwroot\semantic\components\site.js" />
+    <None Include="wwwroot\semantic\components\site.min.css" />
+    <None Include="wwwroot\semantic\components\site.min.js" />
+    <None Include="wwwroot\semantic\components\statistic.css" />
+    <None Include="wwwroot\semantic\components\statistic.min.css" />
+    <None Include="wwwroot\semantic\components\step.css" />
+    <None Include="wwwroot\semantic\components\step.min.css" />
+    <None Include="wwwroot\semantic\components\sticky.css" />
+    <None Include="wwwroot\semantic\components\sticky.js" />
+    <None Include="wwwroot\semantic\components\sticky.min.css" />
+    <None Include="wwwroot\semantic\components\sticky.min.js" />
+    <None Include="wwwroot\semantic\components\tab.css" />
+    <None Include="wwwroot\semantic\components\tab.js" />
+    <None Include="wwwroot\semantic\components\tab.min.css" />
+    <None Include="wwwroot\semantic\components\tab.min.js" />
+    <None Include="wwwroot\semantic\components\table.css" />
+    <None Include="wwwroot\semantic\components\table.min.css" />
+    <None Include="wwwroot\semantic\components\transition.css" />
+    <None Include="wwwroot\semantic\components\transition.js" />
+    <None Include="wwwroot\semantic\components\transition.min.css" />
+    <None Include="wwwroot\semantic\components\transition.min.js" />
+    <None Include="wwwroot\semantic\components\visibility.js" />
+    <None Include="wwwroot\semantic\components\visibility.min.js" />
+    <None Include="wwwroot\semantic\themes\basic\assets\fonts\icons.eot" />
+    <None Include="wwwroot\semantic\themes\basic\assets\fonts\icons.svg" />
+    <None Include="wwwroot\semantic\themes\basic\assets\fonts\icons.ttf" />
+    <None Include="wwwroot\semantic\themes\basic\assets\fonts\icons.woff" />
+    <None Include="wwwroot\semantic\themes\default\assets\fonts\brand-icons.eot" />
+    <None Include="wwwroot\semantic\themes\default\assets\fonts\brand-icons.svg" />
+    <None Include="wwwroot\semantic\themes\default\assets\fonts\brand-icons.ttf" />
+    <None Include="wwwroot\semantic\themes\default\assets\fonts\brand-icons.woff" />
+    <None Include="wwwroot\semantic\themes\default\assets\fonts\brand-icons.woff2" />
+    <None Include="wwwroot\semantic\themes\default\assets\fonts\icons.eot" />
+    <None Include="wwwroot\semantic\themes\default\assets\fonts\icons.svg" />
+    <None Include="wwwroot\semantic\themes\default\assets\fonts\icons.ttf" />
+    <None Include="wwwroot\semantic\themes\default\assets\fonts\icons.woff" />
+    <None Include="wwwroot\semantic\themes\default\assets\fonts\icons.woff2" />
+    <None Include="wwwroot\semantic\themes\default\assets\fonts\outline-icons.eot" />
+    <None Include="wwwroot\semantic\themes\default\assets\fonts\outline-icons.svg" />
+    <None Include="wwwroot\semantic\themes\default\assets\fonts\outline-icons.ttf" />
+    <None Include="wwwroot\semantic\themes\default\assets\fonts\outline-icons.woff" />
+    <None Include="wwwroot\semantic\themes\default\assets\fonts\outline-icons.woff2" />
+    <None Include="wwwroot\semantic\themes\default\assets\images\flags.png" />
+    <None Include="wwwroot\semantic\themes\github\assets\fonts\octicons-local.ttf" />
+    <None Include="wwwroot\semantic\themes\github\assets\fonts\octicons.svg" />
+    <None Include="wwwroot\semantic\themes\github\assets\fonts\octicons.ttf" />
+    <None Include="wwwroot\semantic\themes\github\assets\fonts\octicons.woff" />
+    <None Include="wwwroot\semantic\themes\material\assets\fonts\icons.eot" />
+    <None Include="wwwroot\semantic\themes\material\assets\fonts\icons.svg" />
+    <None Include="wwwroot\semantic\themes\material\assets\fonts\icons.ttf" />
+    <None Include="wwwroot\semantic\themes\material\assets\fonts\icons.woff" />
+    <None Include="wwwroot\semantic\themes\material\assets\fonts\icons.woff2" />
+    <None Include="wwwroot\semantic\semantic.css" />
+    <None Include="wwwroot\semantic\semantic.js" />
+    <None Include="wwwroot\semantic\semantic.min.css" />
+    <None Include="wwwroot\semantic\semantic.min.js" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
