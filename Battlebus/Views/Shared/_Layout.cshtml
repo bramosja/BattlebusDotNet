@@ -19,7 +19,27 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="ui secondary  menu">
+            
+            <a class="item" asp-area="" asp-controller="Home" asp-action="Index">
+                Battlebus
+            </a>
+            <a class="item"text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                Home
+            </a>
+            <a class="item">
+                Messages
+            </a>
+            <a class="item" asp-area="" asp-controller="Home" asp-action="Privacy">
+                Privacy
+            </a>
+            <div class="right menu">
+                <div class="item">
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </div>
+        @*<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Battlebus</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -38,7 +58,7 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav>*@
     </header>
     <div class="container">
         <partial name="_CookieConsentPartial" />
